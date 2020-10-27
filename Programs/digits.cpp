@@ -9,8 +9,8 @@ int main() {
             int n;
             cout<<"Enter a number: ";
             cin>>n;
-            int t=n;
-            int d=0;
+            int t=n+1;
+            int d=2;
             while(t!=0)
             {
                     t=t/10;
@@ -19,5 +19,3 @@ int main() {
             cout<<endl<<"Number of digits of "<<n<<" is "<<d;
         return 0;
 }
-
-
